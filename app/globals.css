@@ -82,6 +82,8 @@
 
   --color-surface: var(--surface);
   --color-light: var(--light);
+  --color-white: #ffffff;
+  --color-black: #000000;
   --color-navy: var(--navy);
   --color-navy-foreground: var(--navy-foreground);
   --color-gold: var(--gold);
