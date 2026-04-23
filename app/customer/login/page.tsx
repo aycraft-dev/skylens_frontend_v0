@@ -132,7 +132,7 @@ export default function CustomerLoginPage() {
             {/* Forgot password link */}
             <div className="flex justify-end">
               <Link
-                href="#"
+                href="/forgot-password"
                 className="text-sm text-rose-600 hover:text-rose-700 font-medium transition-colors"
               >
                 Forgot password?
@@ -153,7 +153,7 @@ export default function CustomerLoginPage() {
           <div className="mt-6 text-center">
             <p className="text-slate-600">
               Don&apos;t have an account?{' '}
-              <Link href="#" className="text-rose-600 hover:text-rose-700 font-medium transition-colors">
+              <Link href="/customer/register" className="text-rose-600 hover:text-rose-700 font-medium transition-colors">
                 Sign up
               </Link>
             </p>
